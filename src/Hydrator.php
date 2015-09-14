@@ -11,9 +11,11 @@ class Hydrator
      */
     public function __construct(callable $convertClassToTableCallback = null)
     {
-        $this->convertClassToTableCallback = $convertClassToTableCallback ?: function ($class) {
+        $defaultCallback = function ($class) {
             return Inflector::snakecase(Inflector::pluralize(Inflector::basename($class)));
         };
+
+        $this->convertClassToTableCallback = $convertClassToTableCallback ?: $defaultCallback;
     }
 
     /**

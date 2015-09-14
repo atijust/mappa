@@ -49,6 +49,19 @@ class HydratorTest extends PHPUnit_Framework_TestCase
         $this->assertEquals($expected, $hydrator->hydrate($stmt, [Book::class, Category::class]));
     }
 
+    public function testCovertClassToTableCallback()
+    {
+        $hydrator = new Mappa\Hydrator(function ($class) {
+            return 'books';
+        });
+
+        $stmt = $this->conn->prepare("SELECT * FROM books WHERE id = ?");
+        $stmt->execute([1]);
+
+        $expected = ['books' => (object)['id' => '1', 'name' => 'B01', 'category_id' => '1'], '' => null];
+        $this->assertEquals($expected, $hydrator->hydrate($stmt, [StdClass::class]));
+    }
+
     public function testHydrateAll()
     {
         $hydrator = new Mappa\Hydrator();
