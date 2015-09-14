@@ -1,6 +1,6 @@
 # Mappa
 
-[![Build Status](https://scrutinizer-ci.com/g/atijust/mappa/badges/build.png?b=master)](https://scrutinizer-ci.com/g/atijust/mappa/build-status/master)
+[![Build Status](https://travis-ci.org/atijust/mappa.svg)](https://travis-ci.org/atijust/mappa)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/atijust/mappa/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/atijust/mappa/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/atijust/mappa/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/atijust/mappa/?branch=master)
 
