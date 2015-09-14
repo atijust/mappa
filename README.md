@@ -36,6 +36,8 @@ var_export($stmt->hydrate([Book::class, Category::class]));
 // )
 ```
 
+Mappa works with PHP 5.5 or later.
+
 ## TODO
 
 - Improve error handling
