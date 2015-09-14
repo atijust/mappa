@@ -1,5 +1,9 @@
 # Mappa
 
+[![Build Status](https://scrutinizer-ci.com/g/atijust/mappa/badges/build.png?b=master)](https://scrutinizer-ci.com/g/atijust/mappa/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/atijust/mappa/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/atijust/mappa/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/atijust/mappa/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/atijust/mappa/?branch=master)
+
 Mappa is a simple object mapper for PDO.
 
 ```php
