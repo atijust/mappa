@@ -35,3 +35,8 @@ var_export($stmt->hydrate([Book::class, Category::class]));
 //   )),
 // )
 ```
+
+## TODO
+
+- Improve error handling
+- Pass custom arguments to entity constructor
