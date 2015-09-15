@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/atijust/mappa.svg)](https://travis-ci.org/atijust/mappa)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/atijust/mappa/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/atijust/mappa/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/atijust/mappa/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/atijust/mappa/?branch=master)
+[![License](https://poser.pugx.org/atijust/mappa/license)](https://packagist.org/packages/atijust/mappa)
 
 Mappa is a simple object mapper for PDO.
 
