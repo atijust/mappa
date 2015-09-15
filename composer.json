@@ -1,7 +1,14 @@
 {
     "name": "atijust/mappa",
-    "type": "library",
+    "description": "A simple object mapper for PDO",
+    "keywords": ["database", "orm", "pdo"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "atijust",
+            "email": "tsujita.shou@gmail.com"
+        }
+    ],
     "require": {
         "php": ">=5.5",
         "doctrine/inflector": "~1.0"
